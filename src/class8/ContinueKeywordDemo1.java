@@ -1,0 +1,19 @@
+package class8;
+
+public class ContinueKeywordDemo1 {
+    public static void main(String[] args) {
+
+        for (int i = 0; i < 10; i++) {
+            if(i%3==0){    // i==3 || i==6 || i==9
+                continue;  // when continue is here it ignores else part
+            }
+                System.out.println(i); // this line is skipped when i=3,6,9
+            }
+
+
+
+
+
+
+    }
+}
