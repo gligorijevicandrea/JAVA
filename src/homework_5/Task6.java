@@ -17,24 +17,24 @@ public class Task6 {
 
          */
 
-        for (int i = 1; i <7 ; i++) {
-            System.out.println("*");
-        }
-        System.out.println();
-        System.out.println();
-        for (int i = 0; i < 5; i++) {
-            if (i == 1 || i == 2){
-                System.out.println(" ");
-                System.out.println();
-            }else{
-                System.out.println("*");
+        for (int i = 1; i < 10; i++) {
+            if (i <= 5) {
+                if (i % 2 != 0) {
+                    System.out.println("*");
+                } else {
+                    System.out.println();
+                }
             }
+            if (i > 5) {
+                if (i % 2 == 0) {
+                    System.out.println("**");
+                } else {
+                }
+                System.out.println("*");
+
+            }
+
         }
-
-
-
-
-
 
 
 

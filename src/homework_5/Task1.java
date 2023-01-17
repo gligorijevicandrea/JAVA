@@ -8,7 +8,7 @@ public class Task1 {
          */
 
         for (int i = 1; i <=50; i++) {
-            if(i%3==0){
+            if(i%3==0){         // or (i%3!=0) without continue;
                 continue;
             }
             System.out.println(i);

@@ -16,13 +16,12 @@ public class Task2 {
         for (int i = 0; i < 10; i++) {
             System.out.println("Do you wanna apply for credit card?");
 
-            boolean creditCard = input.nextBoolean();
+            String userResponse = input.next();
 
-            if (creditCard) {
-                System.out.println("Thanks for offer");
-            } else {
-                System.out.println("Try next time");
+            if (userResponse.equalsIgnoreCase("yes")) {
+                break;   // to stop asking if answer is yes
             }
+
         }
 
 
