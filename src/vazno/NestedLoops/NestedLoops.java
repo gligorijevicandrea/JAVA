@@ -1,4 +1,4 @@
-package vazno;
+package vazno.NestedLoops;
 
 public class NestedLoops {
     public static void main(String[] args) {

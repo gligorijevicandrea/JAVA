@@ -12,8 +12,12 @@ public class Task3 {
             number--;
         }
 
+        System.out.println("******************");
 
+        for (int i = 100; i >=1; i--) {
+            System.out.println(i);
 
+        }
 
 
     }

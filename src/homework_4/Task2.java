@@ -8,13 +8,16 @@ public class Task2 {
 
         int number=1;
 
-        while (number<=100){
+        while (number<=100){      // while loop
             System.out.print(" "+number+" ");
             number++;
         }
 
+        System.out.println("*****************");
 
-
+        for (int i = 1; i <= 100 ; i++) {    // for loop
+            System.out.print(" "+i+" ");
+        }
 
 
 

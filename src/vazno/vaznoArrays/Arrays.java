@@ -1,4 +1,4 @@
-package vaznoArrays;
+package vazno.vaznoArrays;
 
 import java.util.Scanner;
 
