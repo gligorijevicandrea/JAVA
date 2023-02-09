@@ -8,12 +8,12 @@ public class Task1 {
         // print the character in the middle of the String.
         //For Example String str=hello =>l
 
-          String str="Andrea";
+          String str="Hello";
 
 
           if(!str.isEmpty()){
 
-              if(str.length()%2==0 && str.length()>=3){
+              if(str.length()%2!=0 && str.length()>=3){
 
                   System.out.println(str.charAt(str.length()/2));
               }

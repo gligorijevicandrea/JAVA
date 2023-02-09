@@ -1,12 +1,22 @@
 package class21;
 
-public class Rectangle {
+public class Area {
 
-    void(int a,int b){
-        System.out.println(a*b);
+    void calculateArea(double length,double width){
+        System.out.println("Area of rectangle is "+(length*width));
+    }
+
+    void calculateArea(double side){
+        System.out.println("Area of rectangle is "+(side*side));
     }
 
 
+    public static void main(String[] args) {
 
-    
+        Area area=new Area();
+        area.calculateArea(10.5);
+
+
+
+    }
 }

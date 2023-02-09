@@ -1,4 +1,4 @@
-package class_21;
+package class21;
 
 public class Animal {
 

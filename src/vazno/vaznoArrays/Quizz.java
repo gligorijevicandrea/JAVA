@@ -14,6 +14,15 @@ public class Quizz {
         }
 
         System.out.print(total);
+
+        System.out.println("**********");
+
+
+
+
+
+
+
     }
 }
 
