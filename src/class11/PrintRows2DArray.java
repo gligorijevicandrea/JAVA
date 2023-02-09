@@ -19,7 +19,7 @@ public class PrintRows2DArray {
             System.out.println(matrix[0][i]);
         }
 
-        System.out.println("***************");
+        System.out.println("******************************************************************************************************************");
 
         int[]arr=matrix[0];       // prints whole first row
         for (int i = 0; i < arr.length; i++) {

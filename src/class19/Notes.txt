@@ -1,0 +1,23 @@
+Constructor
+    Bloc kof code similar to a method that is executed when we create an obj.
+
+Why do we need it
+    constructor initializes the obj
+
+How to create
+    Name must be same as the class
+    Does not have a return type
+
+Types of constructors
+       non argument
+        parameterized
+
+this keyword
+    -is used to refer to the CURRENT object
+    -can be used with variables and methods
+    -used to refer the CURRENT instance variables
+    -in situation when local variable has same name as instance we use this.
+    to differentiate and refer to the instance variables
+    -this can be used to refer to the instance methods as well
+
+This()  - can be used to call CURRENT class constructor
