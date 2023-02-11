@@ -5,7 +5,7 @@ public class MethodTester2 {
 
         // creating an object of the class
        MethodsDemo2 md=new MethodsDemo2();
-    //    md.printHello(); // calling a method
+    //   md.printHello(); // calling a method
 
     //    md.printHelloManyTimes(5);
                                 // passing the input

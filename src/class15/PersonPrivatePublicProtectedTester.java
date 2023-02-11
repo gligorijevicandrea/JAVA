@@ -1,21 +1,20 @@
 package class15;
 
-import class16.PersonPrivatePublicProtected;
+
 
 public class PersonPrivatePublicProtectedTester {
     public static void main(String[] args) {
-
-        PersonPrivatePublicProtected person= new PersonPrivatePublicProtected();
-
-        // System.out.println(person.bankBallance); //private
-        // System.out.println(person.adress); // default
+        Person person=new Person();
+        // System.out.println(person.bankBalance);
+        System.out.println(person.address);
         System.out.println(person.name);
-
-        person.printTikTokAcc();
-        // person.printSSN();
-        // person.printPhonePassword();
+        person.printSSN();
+        person.printTikTokAccount();
+        // person.printPassword();
+        String str="fnkdjnf";
+    }
 
 
     }
 
-}
+
