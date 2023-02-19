@@ -21,11 +21,12 @@ class Car implements Movable, OwnAble{ // we can implement 2 classes but we have
     }
 }
 
-class Dog implements WashAble,OwnAble{
+class Dog implements Movable,OwnAble{
     @Override
-    public void wash() {
+    public void move() {
         System.out.println("i can move");
     }
+
 
     @Override
     public void own() {
