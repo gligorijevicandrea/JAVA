@@ -1,6 +1,7 @@
 package class29;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class ArrayListDemo1 {
     public static void main(String[] args) {
@@ -16,6 +17,10 @@ public class ArrayListDemo1 {
         for(Dog d:dogs){
             d.printDogName();
         }
+
+        // dogs.removeAll(dogs);  // remove all elements from list
+
+
 
 
 

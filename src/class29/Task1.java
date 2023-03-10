@@ -22,6 +22,7 @@ public class Task1 {
         System.out.println(names.contains("Saud"));
         System.out.println(names.size());
         System.out.println(names);
+        System.out.println(names.get(0));
 
 
 

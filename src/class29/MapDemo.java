@@ -1,5 +1,7 @@
 package class29;
 
+import class30.Entry;
+
 import java.util.HashMap;
 import java.util.TreeMap;
 
@@ -23,6 +25,8 @@ public class MapDemo {
         System.out.println(groceries.size());
         System.out.println(groceries.remove("Meat"));
         System.out.println(groceries);
+        //groceries.clear();  // remove all
+
 
 
 

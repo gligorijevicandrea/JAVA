@@ -31,6 +31,7 @@ public class IteratorDemo1 {
         // getting the object of iterator
         Iterator<Double> iterator=numbers.iterator(); // OR THIS WAY
 
+
         /*System.out.println(iterator.hasNext()); //  returns true , it's safe to call next method because there are elements left
 
         System.out.println(iterator.next());
@@ -50,6 +51,8 @@ public class IteratorDemo1 {
         }
 
         System.out.println(numbers);
+
+
 
 
 
